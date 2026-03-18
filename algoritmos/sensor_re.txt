@@ -1,0 +1,14 @@
+INICIO
+
+Ler distancia
+
+SE distancia < 0.5 ENTAO
+    Exibir "PARE"
+    Tocar bipe contínuo
+SENAO SE distancia >= 0.5 E distancia <= 2 ENTAO
+    Tocar bipe intermitente
+SENAO
+    Não emitir som
+FIMSE
+
+FIM
