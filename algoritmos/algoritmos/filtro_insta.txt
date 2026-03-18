@@ -1,0 +1,21 @@
+INICIO
+
+Usuario escolhe uma foto
+
+Perguntar "Aplicar filtro P&B?"
+
+SE resposta = SIM ENTAO
+    Transformar foto em preto e branco
+SENAO
+    Manter foto original
+FIMSE
+
+Perguntar "Postar agora?"
+
+SE resposta = SIM ENTAO
+    Enviar foto para o servidor
+SENAO
+    Salvar foto na galeria
+FIMSE
+
+FIM
