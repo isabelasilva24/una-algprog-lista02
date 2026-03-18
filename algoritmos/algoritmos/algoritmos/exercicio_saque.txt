@@ -1,0 +1,13 @@
+INICIO
+
+Ler valor_saque
+Ler saldo_disponivel
+
+SE valor_saque <= saldo_disponivel ENTAO
+    saldo_disponivel = saldo_disponivel - valor_saque
+    Entregar notas
+SENAO
+    Exibir "Saldo insuficiente"
+FIMSE
+
+FIM
